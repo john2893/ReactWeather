@@ -59,7 +59,7 @@
 
 	var Weather = __webpack_require__(232);
 	var About = __webpack_require__(265);
-	var Examples = __webpack_require__(266);
+	var Examples = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"Examples\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	var WeatherMessage = __webpack_require__(234);
 	var city = '';
 
@@ -30607,23 +30607,6 @@
 	};
 
 	module.exports = About;
-
-/***/ },
-/* 266 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var React = __webpack_require__(1);
-
-	var Examples = function Examples(props) {
-	  return React.createElement(
-	    'h2',
-	    null,
-	    ' Example Component!! '
-	  );
-	};
-	module.exports = Examples;
 
 /***/ }
 /******/ ]);
