@@ -10,7 +10,7 @@ var Nav = (props) =>{
       <IndexLink to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}} > About </IndexLink>
       <IndexLink to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}} > Examples </IndexLink>
 
-  </div>
+    </div>
   );
 }
 module.exports = Nav;
