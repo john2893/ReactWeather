@@ -30623,7 +30623,7 @@
 	    React.createElement(
 	      'h3',
 	      null,
-	      ' Example Component!! '
+	      ' Examples'
 	    )
 	  );
 	};
